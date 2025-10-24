@@ -288,8 +288,8 @@ int main() {
             current_dir = string(cwd);
         }
         
-        // Print custom prompt with space after $
-        cout << timestamp << " " << username << ":" << current_dir << "$ ";
+        // Print custom prompt
+        cout << timestamp << " " << username << ":" << current_dir << "$";
         
         // Get user inputted command
         string input;
@@ -387,7 +387,7 @@ int main() {
         
         // Check if we should exit after processing all commands
         if (should_exit) {
-            cout << RED << "Now exiting shell..." << endl << "Goodbye" << NC << endl;
+            cout << endl <<  RED << "Now exiting shell..." << endl << "Goodbye" << NC << endl;
             break;
         }
     }
