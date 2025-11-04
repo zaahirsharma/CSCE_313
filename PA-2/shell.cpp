@@ -276,7 +276,7 @@ int main() {
         
         // Get username
         char* user = getenv("USER");
-        string username = user ? string(user) : "user";
+        string username = user ? string(user) : "root";
         
         // Get current directory
         char cwd[1024];

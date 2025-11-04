@@ -1,4 +1,0 @@
-cd /home
-cd -
-pwd
-exit
